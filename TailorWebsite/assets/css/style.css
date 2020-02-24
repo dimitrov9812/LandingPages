@@ -1,0 +1,317 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(240, 235, 235, 0.719);
+}
+#heading{
+   height: 3%;
+   width: 100%;
+   margin-top: -1.5%;
+   margin-bottom: -3.5%;
+}
+#heading-text{
+    width: 10%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    color:rgba(22, 22, 22, 0.726);
+}
+#head-text{
+    font-size: 4vh;
+    font-size: 2vw;
+    font-variant-caps: all-small-caps;
+    margin-top: -3%;
+    font-weight: bolder ;
+}
+#quote-text{
+    font-size: 1.5vh;
+    font-size: 0.8vw;
+}
+#image{
+    height: 30%;
+    width: 100%;
+    background-image: url("/assets/images/suit.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+#image-text-field{
+    width: 30%;
+    height: 90%;
+    padding-top: 1.2%;
+    margin-left: 20%;
+    margin-top:4%;
+    color:white;
+}
+#image-heading{
+    font-size: 7vh;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+#first-part-image-text{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 3.2vh;
+    font-size: 2vw;
+}
+#bold-text-white{
+    font-weight: bolder;
+    font-size: 3.4vh;
+    font-size: 2.2vw;
+}
+#image-hr{
+    border: 1.4px solid white;
+}
+button{
+    font-variant-caps: all-small-caps;
+}
+#book-button{
+    color: grey;
+    background-color: white;
+    border: none;
+    width: 74%;
+    height: 15%;
+    font-size: 3.2vh;
+    font-size: 2vw;
+    transition: 0.5s;
+}
+#book-button:hover{
+    cursor: pointer;
+    color:white;
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+#second-part-image-text{
+    margin-bottom: 5%;
+    font-size: 3vh;
+    font-size: 1.5vw;
+}
+#see-the-suits-field{
+    height: 8%;
+    width: 100%;
+}
+#see-the-suits-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align:  center;
+    padding-top: 1%;
+}
+#suits-heading{
+    font-size:1.5vw;
+    color: black;
+    font-weight: bolder;
+}
+#suit-hr{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom: -1.5%;
+    margin-top: 0.5%;
+}
+#first-part-suits-text{
+    color: black;
+    font-size: 1vw;
+}
+.see{
+    border: 1.5px solid grey;
+    color:gray;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.see:hover{
+    background-color: grey;
+    border: none;
+    color: white;
+}
+#see-the-suits-butt{
+    width: 28%;
+    height: 30%;
+    font-size: 2.5vh;
+    margin-top: -1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#actions{
+    height: 11%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: grey;
+    color:white;
+}
+.action-image-container{
+    margin: 0 auto;
+    width: 18%;
+    height: 30%;
+    border: 1px solid white;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+}
+.heading{
+    font-variant-caps: all-small-caps;
+    font-size: 2.5vh;
+    font-size:1.5vw;
+}
+.action{
+    width: 20%;
+    margin-left: 10%;
+}
+#action-hr{
+    width: 20%;
+    margin-bottom: -4%;
+}
+#action-heading-3,#action-heading-2,#action-heading-1{
+    font-size: 2vh;
+}
+.action-text{
+    font-size: 1.2vh;
+    font-size: 0.8vw;
+    padding: 3%;
+    word-wrap: break-word;
+}
+#contacts-wrap{
+    background-color: #40b1f3;
+    margin-top: -2.4%;
+}
+#fit-text{
+    font-size: 1.2vh;
+}
+#contacts{
+    height: 11%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+#contacts-heading{
+    height:10%;
+    width: 30%;
+    margin:0 auto;
+    padding-bottom: 1.5%;
+    font-size: 2vh;
+    font-size: 2vw;
+}
+#heading{
+    padding-top: 2%;
+    font-variant-caps: all-small-caps;
+}
+#contacts-info{
+    font-size: 2vh;
+    height:30%;
+    width: 30%;
+    margin:0 auto;
+}
+#contacts-date{
+    font-size: 1.6vh;
+    height:10%;
+}
+#contbutton{
+    width: 13%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:#40b1f3;
+    background-color: white;
+    border: none;
+    transition: 0.5s;
+    font-size: 1vh;
+    font-size: 1vw;
+    margin-bottom: 1%;
+}
+#contbutton:hover{
+    cursor: pointer;
+    color:white;
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+#bold-date{
+    font-weight: bolder;
+}
+#photos{
+    height: 14%;
+    width: 100%;
+    text-align: center;
+}
+#photo-heading{
+    font-variant-caps: all-small-caps;
+    font-size: 3vh;
+}
+#photo-space{
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60%;
+    margin-top: -1%;
+    padding-bottom: 2%;
+    margin-left: -1%;
+}
+.img{
+    padding: 1%;
+    height: 7vw;
+}
+#quote-field{
+    height: 14%;
+    width: 100%;
+    background-color: #40b1f3;
+    color: white;
+    text-align: center;
+}
+#quote-heading{
+    font-size: 2.5vh;
+    font-variant-caps: all-small-caps;
+}
+#quote{
+    margin: 0 auto;
+    width: 25%;
+}
+#quote-butt{
+    width: 13%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:#40b1f3;
+    background-color: white;
+    border: none;
+    transition: 0.5s;
+    font-size: 1vh;
+    font-size: 1vw;
+    margin-bottom: 1%;
+}
+#quote-butt:hover{
+    cursor: pointer;
+    color:white;
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+#links{
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
+.net-img{
+    margin-top:1.5%;
+    height: 25%;
+    width:2%;
+    padding: 1%;
+}
+h6{
+    font-size: 1.2vh;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+#facebook{
+    content: url('/assets/images/facebook.png');
+    transition: 2s;
+    -webkit-transition: all 2 ease-in-out;
+    -moz-transition: all 2 ease-in-out;
+    transition: all 2 ease-in-out;
+}
+#facebook:hover{
+    content: url('/assets/images/facebook-hover.png');
+}
+#instagram:hover{
+    content: url('/assets/images/instagram-hover.png');
+}
+#twitter:hover{
+    content: url('/assets/images/twitter-hover.png');
+}
